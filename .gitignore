@@ -1,0 +1,40 @@
+# Build directories
+_build/
+build/
+dist/
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.egg-info/
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX
+*.aux
+*.log
+*.toc
+*.out
+*.pdf
+!_build/latex/*.pdf
+
+# Sphinx
+.doctrees/
+.buildinfo

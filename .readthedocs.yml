@@ -1,0 +1,31 @@
+# Read the Docs configuration file
+version: 2
+
+# Build documentation in the docs/ directory with Sphinx
+sphinx:
+  configuration: conf.py
+  builder: html
+  fail_on_warning: false
+
+# Build PDF & ePub
+formats:
+  - pdf
+  - epub
+
+# Python environment
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+  apt_packages:
+    - texlive-full
+    - latexmk
+
+python:
+  install:
+    - requirements: requirements.txt
+
+# Submodules
+submodules:
+  include: all
+  recursive: true
