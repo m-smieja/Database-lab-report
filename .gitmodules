@@ -13,3 +13,15 @@
 [submodule "chapter_2/2.4"]
 	path = chapter_2/2.4
 	url = https://github.com/BlazejUl/bezpieczenstwo.git
+[submodule "task_modules"]
+	path = task_modules
+	url = git@github.com:m-smieja/task_modules.git
+[submodule "chapter_2/2.6"]
+	path = chapter_2/2.6
+	url = https://github.com/Pi0trM/Kontrola_i_konserwacja.git
+[submodule "chapter_2/2.7"]
+	path = chapter_2/2.7
+	url = https://github.com/GrzegorzSzczepanek/repo-wspolne.git
+[submodule "chapter_2/2.8"]
+	path = chapter_2/2.8
+	url = https://github.com/BartekHen/Partycjonowanie-danych.git

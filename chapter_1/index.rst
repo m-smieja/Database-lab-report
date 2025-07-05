@@ -1,46 +1,35 @@
-Wstęp
-=====
+Wprowadzenie
+============
 
-Cel dokumentacji
+Cel sprawozdania
 ----------------
 
-Ta dokumentacja została stworzona w celu kompleksowego opisania struktury i funkcjonalności 
-systemu bazy danych CRM. Zawiera szczegółowe informacje techniczne, modele danych oraz 
-instrukcje dla deweloperów i administratorów.
+Celem niniejszego sprawozdania jest przedstawienie kompleksowego procesu projektowania, analizy oraz optymalizacji bazy danych w oparciu o badania literaturowe oraz praktyczne repozytoria dostępne online. W pierwszej części pracy dokonano przeglądu literatury i dostępnych zasobów dotyczących wydajności, skalowania oraz bezpieczeństwa baz danych, co stanowiło fundament do dalszych działań projektowych.
 
-Zakres projektu
----------------
+Cały projekt oraz związane z nim pliki źródłowe dostępne są w repozytorium:  
+`https://github.com/m-smieja/Database-lab-report <https://github.com/m-smieja/Database-lab-report>`_
 
-Projekt obejmuje:
-
-* Projektowanie struktury bazy danych dla systemu CRM
-* Implementację modeli danych w PostgreSQL
-* Optymalizację zapytań i indeksów
-* Strategie backup i recovery
-* Skrypty wspomagające zarządzanie danymi
-
-Wymagania systemowe
+Zakres sprawozdania
 -------------------
 
-System został zaprojektowany dla następującego środowiska:
+Sprawozdanie obejmuje:
 
-* **Baza danych**: PostgreSQL 15+
-* **System operacyjny**: Ubuntu 22.04 LTS
-* **Python**: 3.10+ (dla skryptów wspomagających)
-* **Pamięć RAM**: minimum 8GB (zalecane 16GB)
-* **Przestrzeń dyskowa**: minimum 50GB
+* Badania literaturowe i przegląd repozytoriów
+* Projekt bazy danych w trzech modelach: konceptualnym, logicznym i fizycznym
+* Opis danych przechowywanych w bazie wraz z wizualizacją
+* Prezentację skryptów wspomagających z autogenerowaną dokumentacją
+* Analizę bazy danych oraz optymalizację zapytań na podstawie wniosków z modułu CLAAI01
+* Spis wykorzystanych repozytoriów wraz z linkami
 
-Konwencje dokumentu
+Struktura dokumentu
 -------------------
 
-W dokumencie stosowane są następujące konwencje:
+Dokument składa się z następujących części:
 
-* ``kod`` - fragmenty kodu lub nazwy techniczne
-* **pogrubienie** - ważne terminy i definicje
-* *kursywa* - odniesienia i cytaty
+1. **Badania literaturowe** – przegląd materiałów i repozytoriów
+2. **Projekt bazy danych** – modele i wizualizacja danych
+3. **Prezentacja skryptów** – opis i dokumentacja wygenerowanych narzędzi
+4. **Analiza i optymalizacja** – ocena działania bazy oraz usprawnienia zapytań
+5. **Repozytoria** – lista wszystkich wykorzystanych źródeł i linków
 
-.. note::
-   Bloki tego typu zawierają dodatkowe informacje i wskazówki.
 
-.. warning::
-   Bloki tego typu zawierają ostrzeżenia i informacje o potencjalnych problemach.

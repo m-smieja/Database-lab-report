@@ -35,7 +35,7 @@ html_short_title = 'DB Report'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_engine = 'pdflatex'
+latex_engine = 'xelatex'
 latex_elements = {
     'papersize': 'a4paper',
     'pointsize': '11pt',
@@ -61,12 +61,11 @@ latex_elements = {
         \begin{titlepage}
         \centering
         \vspace*{2cm}
-        {\Huge\bfseries Database Report\[0.4cm]}
-        {\LARGE System zarządzania kontaktami CRM\[2cm]}
-        {\Large Autor: ''' + author + r'''\[0.5cm]}
-        {\large \today\[4cm]}
+        {\Huge\bfseries Database Report}\\[0.4cm]
+        {\LARGE System zarządzania kontaktami CRM\\[2cm]}
+        {\Large Autor: ''' + author + r'''\\[0.5cm]}
+        {\large \today\\[4cm]}
         \vfill
-        {\large Politechnika\Wydział\Kierunek}
         \end{titlepage}
     ''',
 }
@@ -83,3 +82,4 @@ latex_domain_indices = True
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('chapter_2'))
 sys.path.insert(0, os.path.abspath('task_modules'))
+
