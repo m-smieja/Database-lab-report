@@ -14,27 +14,37 @@ Repozytorium główne (``Database_report``) zawiera:
 Struktura katalogów::
 
     Database_report/
-    ├── 1.chapter/      # Dokumentacja wprowadzająca
-    ├── 2.chapter/      # Moduły funkcjonalne (submoduły)
-    │   ├── 2.1/        # Wydajność, Skalowanie i Replikacja
-    │   ├── 2.2/        # Sprzęt dla bazy danych
-    │   ├── 2.3/        # Konfiguracja baz danych
-    │   ├── 2.4/        # Bezpieczeństwo
-    │   └── 2.5/        # Kopie zapasowe i odzyskiwanie danych
-    ├── 3.chapter/      # Modele i koncepcje
-    ├── 4.chapter/      # Analiza techniczna
-    ├── 5.chapter/      # Ten rozdział
-    └── 3rep/           # Repozytoria zewnętrzne
+   ├── chapter_1/
+   ├── chapter_2/
+   ├── chapter_3/
+   ├── chapter_4/
+   ├── chapter_5/
+   ├── task_modules/ 
+   ├── .gitignore
+   ├── .gitmodules
+   ├── .readthedocs.yml
+   ├── Makefile
+   ├── README.md
+   ├── activate.sh
+   ├── build.sh
+   ├── conf.py
+   ├── index.rst
+   ├── make.bat
+   └── requirements.txt
 
 Repozytoria modułów
 -------------------
 
 Projekty w rozdziale 2 są zarządzane jako submoduły Git:
 
-* **Wydajnosc_Skalowanie_i_Replikacja** - Optymalizacja wydajności i skalowanie
-* **Sprzet-dla-bazy-danych** - Dobór i konfiguracja sprzętu
-* **Konfiguracja_baz_danych** - Najlepsze praktyki konfiguracji
-* **bezpieczenstwo** - Zabezpieczenia i audyt
-* **Kopie_zapasowe_i_odzyskiwanie_danych** - Strategie backup i recovery
+* **bezpieczenstwo**
+* **Konfiguracja_baz_danych**
+* **Kontrola_i_konserwacja**
+* **Kopie_zapasowe_i_odzyskiwanie_danych**
+* **Monitorowanie-i-diagnostyka**
+* **Partycjonowanie-danych**
+* **Sprzet-dla-bazy-danych**
+* **Wydajnosc-Skalowanie-i-Replikacja**
+
 
 

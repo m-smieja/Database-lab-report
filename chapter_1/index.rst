@@ -9,6 +9,11 @@ Celem niniejszego sprawozdania jest przedstawienie kompleksowego procesu projekt
 Cały projekt oraz związane z nim pliki źródłowe dostępne są w repozytorium:  
 `https://github.com/m-smieja/Database-lab-report <https://github.com/m-smieja/Database-lab-report>`_
 
+oraz wersja dostępna na readthedocs.io
+`<https://database-report.readthedocs.io/pl/latest/>`_
+
+
+
 Zakres sprawozdania
 -------------------
 
